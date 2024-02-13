@@ -8,6 +8,7 @@ import { FaDownload } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import manishProfile from "../../images/manishProfile.jpg";
+import Manish_Kumar_Jha from '../../images/Manish_Kumar_Jha.pdf'
 export default function Home() {
   const handleScroll = () => {};
 
@@ -40,9 +41,11 @@ export default function Home() {
               // onType={handleType}
             />
           </h1>
+          <a href={Manish_Kumar_Jha}>
           <button className="hover:bg-[#2d4481] group bg-[#4070f4] flex items-center gap-3 mt-8 transition-all duration-200 text-white text-xl font-bold px-4 py-2 rounded-md">
             Download CV <FaDownload className="group-hover:animate-bounce" />
           </button>
+          </a>
           <div className="flex text-xl md:text-2xl text-black bg-transparent dark:text-white duration-500 transition-all gap-x-10 mt-10">
             <a
               target="_blank"

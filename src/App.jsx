@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";

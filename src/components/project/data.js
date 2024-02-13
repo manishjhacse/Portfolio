@@ -15,8 +15,8 @@ export const projectData=[
     {
         videoSource:portfoliopreview,
         name:"PORTFOLIO",
-        previewLink:"https://portfoliomanishjha.netlify.app/",
-        githubLink:"https://portfoliomanishjha.netlify.app/",
+        previewLink:"https://manishjha.vercel.app/",
+        githubLink:"https://github.com/manishjhacse/Portfolio",
         technologies:["React","Tailwind"]
     },
     {
