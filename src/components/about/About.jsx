@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import manishProfile from "../../images/manishProfile.jpg";
+import aboutImage from '../../images/aboutImage.jpg'
 import { FaArrowDown } from "react-icons/fa6";
 
 import Aos from "aos";
@@ -20,8 +21,8 @@ export default function About() {
       <div className="md:w-[75%] gap-x-10 w-full flex overflow-hidden">
         <div data-aos="fade-right" className="w-[500px]  md:block hidden">
           <img
-            className="rounded-full overflow-hidden"
-            src={manishProfile}
+            className="rounded-lg overflow-hidden"
+            src={aboutImage}
             alt=""
           />
         </div>

@@ -48,7 +48,7 @@ export default function Contact() {
               target="_blank"
               href="http://instagram.com/manish_j21"
             >
-              <div className="text-[#E4405F] w-[40px] h-[40px]  px-2 py-2 rounded-full  overflow-hidden border-[#E4405F] hover:bg-[#E4405F] dark:hover:text-[white] hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
+              <div className="text-[#E4405F] w-[40px] h-[40px]  px-2 py-2 rounded-full  overflow-hidden border-[#E4405F] group-hover:bg-[#E4405F] dark:group-hover:text-[white] group-hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
                 <FaInstagram />
               </div>
               <div className="text-[#E4405F] font-bold w-0 overflow-hidden group-hover:w-[100px] transition-all duration-300 md:block hidden">
@@ -60,7 +60,7 @@ export default function Contact() {
               target="_blank"
               href="https://linkedin.com/in/manish02"
             >
-              <div className="text-[#0077B5] w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#0077B5] hover:bg-[#0077B5] dark:hover:text-[white] hover:text-white transition-all duration-300 md:border-2 text-xl flex justify-center items-center">
+              <div className="text-[#0077B5] w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#0077B5] group-hover:bg-[#0077B5] dark:group-hover:text-[white] group-hover:text-white transition-all duration-300 md:border-2 text-xl flex justify-center items-center">
                 <FaLinkedinIn />
               </div>
               <div className="text-[#0077B5] font-bold w-0 overflow-hidden group-hover:w-[100px] transition-all duration-300 md:block hidden">
@@ -72,7 +72,7 @@ export default function Contact() {
               target="_blank"
               href="https://github.com/manishjhacse/"
             >
-              <div className="text-[#181717] dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-[#181717] w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#181717] hover:bg-[#181717]  hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
+              <div className="text-[#181717] dark:border-white dark:text-white dark:group-hover:bg-white dark:group-hover:text-[#181717] w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#181717] group-hover:bg-[#181717]  group-hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
                 <FiGithub />
               </div>
               <div className="text-[#181717] dark:text-white font-bold w-0 overflow-hidden group-hover:w-[100px] transition-all duration-300 md:block hidden">
@@ -84,7 +84,7 @@ export default function Contact() {
               target="_blank"
               href="https://twitter.com/manish_jha02"
             >
-              <div className="text-[black]  dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black  w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[black] hover:bg-[black] hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
+              <div className="text-[black]  dark:border-white dark:text-white dark:group-hover:bg-white dark:group-hover:text-black  w-[40px] px-2 py-2 rounded-full h-[40px] overflow-hidden border-[black] group-hover:bg-[black] group-hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
                 <FaXTwitter />
               </div>
               <div className="dark:text-[white] text-black font-bold w-0 overflow-hidden group-hover:w-[100px] transition-all duration-300 md:block hidden">
@@ -97,7 +97,7 @@ export default function Contact() {
               target="_blank"
               href="https://wa.me/+916202586811"
             >
-              <div className="text-[#25D366] w-[40px]  px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#25D366] hover:bg-[#25D366] dark:hover:text-[white] hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
+              <div className="text-[#25D366] w-[40px]  px-2 py-2 rounded-full h-[40px] overflow-hidden border-[#25D366] group-hover:bg-[#25D366] dark:group-hover:text-[white] group-hover:text-white transition-all duration-300 md:border-2 text-2xl flex justify-center items-center">
                 <FaWhatsapp />
               </div>
               <div className="text-[#25D366] font-bold w-0 overflow-hidden group-hover:w-[100px] transition-all duration-300 md:block hidden">

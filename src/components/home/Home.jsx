@@ -41,7 +41,7 @@ export default function Home() {
               // onType={handleType}
             />
           </h1>
-          <a target="_blank" href={Manish_Kumar_Jha}>
+          <a target="_blankx" href={Manish_Kumar_Jha}>
           <button className="hover:bg-[#2d4481] group bg-[#4070f4] flex items-center gap-3 mt-8 transition-all duration-200 text-white text-xl font-bold px-4 py-2 rounded-md">
             Download CV <FaDownload className="group-hover:animate-bounce" />
           </button>
