@@ -20,13 +20,13 @@ export default function ProjectContainer({ data, mode }) {
         </video>
         <div className="w-full justify-between flex items-start">
           <div className="md:gap-5 gap-2 px-2 md:px-5 flex">
-            <a target="_blank" href={githubLink}>
-              <button className="w-full transition-all duration-500 h-full text-xs bg-white  dark:hover:bg-slate-500 text-black  px-2 py-1 rounded-full">
+            <a className="w-full transition-all duration-200 h-full text-xs bg-white  hover:bg-black hover:text-white text-black border border-white  px-2 py-1 rounded-full" target="_blank" href={githubLink}>
+              <button >
                 Github
               </button>
             </a>
-            <a target="_blank" href={previewLink}>
-              <button className="w-full transition-all duration-500 h-full text-xs bg-white  dark:hover:bg-slate-500 text-black px-2 py-1 rounded-full">
+            <a className="w-full transition-all duration-200 h-full text-xs bg-white  hover:bg-black hover:text-white text-black border border-white  px-2 py-1 rounded-full" target="_blank" href={previewLink}>
+              <button >
                 Preview
               </button>
             </a>
