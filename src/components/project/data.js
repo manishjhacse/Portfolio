@@ -1,10 +1,17 @@
 import blog from "../../videos/blog.mp4";
 import movieCenter from "../../videos/movieCenter.mp4";
 import portfoliopreview from "../../videos/portfoliopreview.mp4";
-import studynotion from "../../videos/studynotion.mp4";
+import livechat from "../../videos/livechat.mp4"
 import todo from "../../videos/todo.mp4";
 import Manishstore from '../../videos/Manish-store.mp4'
 export const projectData = [
+  {
+    videoSource: livechat,
+    name: "Live Chatting Application",
+    previewLink: "https://live-chat-application-manishjha.vercel.app/",
+    githubLink: "https://github.com/manishjhacse/Live-Chat-Application",
+    technologies: ["Socket.io","Node.js","Express.js","React", "Tailwind",],
+  },
   {
     videoSource: Manishstore,
     name: "MANISH STORE",
@@ -23,7 +30,7 @@ export const projectData = [
   {
     videoSource: portfoliopreview,
     name: "PORTFOLIO",
-    previewLink: "https://manishjha.vercel.app/",
+    previewLink: "https://manishkumarjha.tech",
     githubLink: "https://github.com/manishjhacse/Portfolio",
     technologies: ["React", "Tailwind"],
   },
@@ -41,11 +48,5 @@ export const projectData = [
     githubLink: "https://github.com/manishjhacse/To-Do-List",
     technologies: ["React", "Tailwind"],
   },
-  {
-    videoSource: studynotion,
-    name: "STUDY NOTION",
-    previewLink: "https://project-using-react-router.netlify.app/",
-    githubLink: "https://github.com/manishjhacse/react-router-Project",
-    technologies: ["React", "Tailwind"],
-  },
+  
 ];

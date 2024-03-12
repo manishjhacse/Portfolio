@@ -35,11 +35,6 @@ export default function Project({ mode }) {
             View More <FaArrowRight />
           </button>
         </a>
-        <a className="md:block hidden  cursor-pointer z-50" href="#contact">
-          <button className="text-xl arrow-button bott absolute z-10 md:block hidden bottom-[50px] left-[48%]   duration-500 transition-all animate-bounce">
-            <FaArrowDown />
-          </button>
-        </a>
       </div>
     </div>
   );

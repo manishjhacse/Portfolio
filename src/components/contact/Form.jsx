@@ -27,7 +27,7 @@ export default function Form() {
         />
       </div>
       <button className="hover:bg-[#2d4481] group w-fit bg-[#4070f4] flex items-center gap-3 transition-all duration-200 text-white md:text-xl font-bold md:px-4 md:py-2 px-2 py-1 rounded-md" type="submit" disabled={state.submitting}>
-        Submit <FaTelegramPlane />
+        Send <FaTelegramPlane />
       </button>
     </form>
   );

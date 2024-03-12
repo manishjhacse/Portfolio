@@ -1,7 +1,7 @@
 
 
 .skill-box {
-    filter: drop-shadow(0px 0px 10px #5545a3);
+    filter: drop-shadow(1px 1px 1px #5545a3);
 }
     @media screen and (min-width: 760px) {
         .skill-boxes {
@@ -9,7 +9,7 @@
             background-color: rgb(0 0 0 / 70%);
             }
             .skill-box {
-                filter: drop-shadow(0px 0px 10px #5545a3);
+                filter: drop-shadow(1px 1px 1px #5545a3);
             }
         
     }
