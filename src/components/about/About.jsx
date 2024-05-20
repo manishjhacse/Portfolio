@@ -59,11 +59,7 @@ export default function About() {
           </div>
          
         </div>
-        <a className="md:block hidden  cursor-pointer z-50" href="#education">
-            <button className="text-xl arrow-button absolute bottom-[100px] left-[48%]   duration-500 transition-all animate-bounce">
-              <FaArrowDown />
-            </button>
-          </a>
+       
       </div>
     </div>
   );

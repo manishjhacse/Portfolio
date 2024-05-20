@@ -56,12 +56,12 @@
 
   @keyframes blob {
       0% {
-        filter: drop-shadow(0px 0px 40px #6E57E0);
+        filter: drop-shadow(0px 0px 10px #6E57E0);
       }
 
 
       100% {
-        filter: drop-shadow(0px 0px 25px #6E57E0);
+        filter: drop-shadow(0px 0px 5px #6E57E0);
       }
   }
 

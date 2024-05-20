@@ -60,11 +60,7 @@ export default function Education() {
           );
         })}
       </div>
-      <a className="md:block hidden  cursor-pointer z-50" href="#skills">
-            <button className="text-xl arrow-button absolute bottom-[100px] left-[48%]   duration-500 transition-all animate-bounce">
-              <FaArrowDown />
-            </button>
-          </a>
+     
     </div>
   );
 }

@@ -28,7 +28,7 @@ export default function Header({ mode, handleMode }) {
               navActive ? "nav__menu show-menu dark:bg-black" : "nav__menu"
             } dark:text-white duration-700  transition-all`}
           >
-            <ul className="nav__list">
+            <ul className="nav__list border-t rounded-md pt-1 md:border-0 border-white">
               <li className="nav__item">
                 <a href="#home" className="nav__link">
                   <HiOutlineHome className="nav__icon" /> Home
