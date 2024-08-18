@@ -1,10 +1,17 @@
 import blog from "../../videos/blog.mp4";
 import movieCenter from "../../videos/movieCenter.mp4";
-import portfoliopreview from "../../videos/portfoliopreview.mp4";
 import livechat from "../../videos/livechat.mp4";
 import dailydiary from "../../videos/dailydiary.mp4";
 import Manishstore from "../../videos/Manish-store.mp4";
+import ojasx from "../../videos/ojasx.mp4"
 export const projectData = [
+  {
+    videoSource: ojasx,
+    name: "OJAS'X",
+    previewLink: "https://ojasxislive.vercel.app/",
+    githubLink: "https://github.com/manishjhacse/ojasx",
+    technologies: ["Node.js", "Express.js", "MongoDB", "React", "Tailwind"],
+  },
   {
     videoSource: dailydiary,
     name: "Daily Diary",
@@ -32,13 +39,6 @@ export const projectData = [
     name: "MOVIX",
     previewLink: "https://movies-center-blond.vercel.app/",
     githubLink: "https://github.com/manishjhacse/movies-center",
-    technologies: ["React", "Tailwind"],
-  },
-  {
-    videoSource: portfoliopreview,
-    name: "Portfolio",
-    previewLink: "https://manishkumarjha.tech",
-    githubLink: "https://github.com/manishjhacse/Portfolio",
     technologies: ["React", "Tailwind"],
   },
   {
