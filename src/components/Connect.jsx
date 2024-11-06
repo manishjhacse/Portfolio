@@ -1,22 +1,30 @@
-import React from 'react'
+import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { IoIosClose } from "react-icons/io";
+
 export default function Connect({ setShowConnect }) {
     const [state, handleSubmit] = useForm("xbljojyw");
-    const handleSubmitForm = () => {
-        handleSubmit();
-        if (state.succeeded)
-            setShowConnect(false)
-    }
+
+    // Use event parameter to prevent default behavior
+    const handleSubmitForm = (event) => {
+        event.preventDefault(); // Prevent page reload
+        handleSubmit(event); // Call Formspree's handleSubmit function
+        if (state.succeeded) {
+            setShowConnect(false);
+        }
+    };
+
     if (state.succeeded) {
-        return <p className='absolute z-20 shadow-sm shadow-white flex flex-col gap-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black transition-all duration-200 text-white px-[30px] py-[30px] rounded-md'>Thank You!</p>;
+        setShowConnect(false);
     }
+
     return (
         <form className='absolute z-20 shadow-sm shadow-white flex flex-col gap-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black transition-all duration-200 text-white px-[30px] py-[30px] rounded-md' onSubmit={handleSubmitForm}>
             <div onClick={() => {
-                setShowConnect(false)
-
-            }} className='absolute top-1 right-1 text-3xl cursor-pointer text-red-500'><IoIosClose /></div>
+                setShowConnect(false);
+            }} className='absolute top-1 right-1 text-3xl cursor-pointer text-red-500'>
+                <IoIosClose />
+            </div>
             <div className='flex flex-col'>
                 <label htmlFor="email">
                     Email Address
@@ -45,8 +53,7 @@ export default function Connect({ setShowConnect }) {
                 />
             </div>
             <div className='flex flex-col'>
-                <label
-                    htmlFor="message">
+                <label htmlFor="message">
                     Message
                 </label>
                 <textarea
