@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { IoLocationSharp } from "react-icons/io5";
-import Manish_Kumar_Jha from "../images/Manish_Kumar_Jha.pdf"
 import { FaFileDownload, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Connect from './Connect';
