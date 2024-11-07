@@ -23,7 +23,7 @@ export default function Experience() {
                     <ul className='list-disc list-outside text-slate-300 pl-3'>
                         <li className='mb-2 '>Created a DJI parser application, facilitating efficient processing and analysis of drone data, which streamlined workflows for aerial intelligence.</li>
                         <li className='mb-2'>Contributed to the development of a point cloud viewer, enhancing visualization capabilities and allowing users to interact with complex geospatial data.</li>
-                        <li>Collaborated with cross-functional teams in Agile environments, adapting to project challenges and ensuring timely delivery of high-quality software solutions.</li>
+                        <li>Currently working closely with cross-functional teams in Agile environments, adapting to project challenges and ensuring the timely delivery of high-quality software solutions.</li>
                     </ul>
                     <div>{["ReactJs", "ExpressJs", "NodeJs", "TailwindCSS", "JavaScript"].map((lang) => {
                         return <span key={lang} className='inline-block bg-green-500 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-green-500 mb-2 mr-2 rounded-full'>{lang}</span>
