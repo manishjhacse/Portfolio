@@ -19,10 +19,10 @@ export default function Connect({ setShowConnect }) {
     }
 
     return (
-        <form className='absolute z-20 shadow-sm shadow-white flex flex-col gap-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black transition-all duration-200 text-white px-[30px] py-[30px] rounded-md' onSubmit={handleSubmitForm}>
+        <form className='absolute z-20 shadow-sm shadow-white flex flex-col gap-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-800 items-center justify-center transition-all duration-200 text-white px-10 py-20 sm:w-[400px] md:h-[400px] rounded-md' onSubmit={handleSubmitForm}>
             <div onClick={() => {
                 setShowConnect(false);
-            }} className='absolute top-1 right-1 text-3xl cursor-pointer text-red-500'>
+            }} className='absolute top-1 right-1 text-3xl cursor-pointer text-gray-300'>
                 <IoIosClose />
             </div>
             <div className='flex flex-col'>
@@ -30,7 +30,7 @@ export default function Connect({ setShowConnect }) {
                     Email Address
                 </label>
                 <input
-                    className='px-2 py-1 rounded-md outline-none border-white bg-black text-slate-100 border'
+                    className='px-2 py-1 rounded-md outline-none border-white bg-slate-800 text-slate-100 border'
                     id="email"
                     type="email"
                     name="email"
@@ -46,7 +46,7 @@ export default function Connect({ setShowConnect }) {
                     Name
                 </label>
                 <input
-                    className='px-2 py-1 rounded-md outline-none border-white bg-black text-slate-100 border'
+                    className='px-2 py-1  rounded-md outline-none border-white bg-slate-800 text-slate-100 border'
                     id="name"
                     type="text"
                     name="name"
@@ -57,7 +57,7 @@ export default function Connect({ setShowConnect }) {
                     Message
                 </label>
                 <textarea
-                    className='px-2 py-1 rounded-md outline-none border-white bg-black text-slate-100 border'
+                    className='px-2 py-1 rounded-md outline-none border-white bg-slate-800 text-slate-100 border'
                     id="message"
                     name="message"
                 />
@@ -67,7 +67,7 @@ export default function Connect({ setShowConnect }) {
                     errors={state.errors}
                 />
             </div>
-            <button className='bg-violet-600 hover:bg-violet-800 transition-all duration-200 hover:text-slate-300 text-sm mx-auto w-fit px-4 py-2 rounded-md' type="submit" disabled={state.submitting}>
+            <button className='bg-purple-600 hover:bg-purple-800 transition-all duration-200 hover:text-slate-300 text-sm mx-auto w-fit px-4 py-2 rounded-md' type="submit" disabled={state.submitting}>
                 Submit
             </button>
         </form>

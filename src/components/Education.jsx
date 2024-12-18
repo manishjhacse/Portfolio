@@ -12,7 +12,7 @@ export default function Education() {
 
                 {/* Education Details */}
                 <div className='text-slate-400 flex items-center gap-4'>
-                    <img className="rounded-full w-[80px]" src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730802945/WhatsApp_Image_2024-11-05_at_16.04.31_304d3cb3_wliijk.jpg" alt="BPMCE" />
+                    {/* <img className="rounded-full w-[80px]" src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730802945/WhatsApp_Image_2024-11-05_at_16.04.31_304d3cb3_wliijk.jpg" alt="BPMCE" /> */}
                     <div className='flex flex-col'>
                         <h1 className='text-2xl text-white font-bold'>B.Tech (CSE)</h1>
                         <h3 className='text-[18px]'>B. P. Mandal college of engineering</h3>
@@ -28,7 +28,7 @@ export default function Education() {
 
                 {/* Education Details */}
                 <div className='text-slate-400 flex items-center gap-4'>
-                    <img className="rounded-full w-[80px]" src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730803500/WhatsApp_Image_2024-11-05_at_16.14.19_759661b7_nwsc51.jpg" alt="BPMCE" />
+                    {/* <img className="rounded-full w-[80px]" src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730803500/WhatsApp_Image_2024-11-05_at_16.14.19_759661b7_nwsc51.jpg" alt="BPMCE" /> */}
                     <div className='flex flex-col'>
                         <h1 className='text-2xl text-white font-bold'>12<sup>th</sup> (PCM)</h1>
                         <h3 className='text-[18px]'>Bihar School Examination Board</h3>

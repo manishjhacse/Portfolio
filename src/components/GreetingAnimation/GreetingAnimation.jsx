@@ -6,9 +6,9 @@ const GreetingAnimation = () => {
         'Hello',
         'Namaste',
         'Hola',
-        'Bonjour',
-        'Hallo',
-        'Ciao',
+        // 'Bonjour',
+        // 'Hallo',
+        // 'Ciao',
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
