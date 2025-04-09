@@ -3,6 +3,7 @@ import "./App.css";
 import Details from "./components/Details";
 import RightSide from "./components/RightSide";
 import GreetingAnimation from "./components/GreetingAnimation/GreetingAnimation";
+import { Toaster } from "react-hot-toast";
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
       <Details />
       {/* RightSide */}
       <RightSide />
+      <Toaster />
     </div>
   );
 }

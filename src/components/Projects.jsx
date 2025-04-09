@@ -21,12 +21,12 @@ export default function Projects() {
             {/* Work Container */}
             {
                 projectData.map((project) => {
-                    return <div key={project.id} className='relative flex gap-8 mb-5'>
+                    return <div key={project.id} className='relative md:px-0 px-3 flex gap-8 mb-5'>
                         {/* Line */}
-                        <div className='h-full border-l-2 border-slate-500'></div>
+                        <div className='h-full border-l-2 md:block hidden border-slate-500'></div>
                         <div className='flex flex-col gap-5'>
                             {/* project Details */}
-                            <div className='text-slate-400 relative flex flex-col items-start gap-4 mb-'>
+                            <div className='text-slate-400 relative flex flex-col items-start md:gap-4 gap-2 mb-'>
                                 <h1 className='text-xl text-white font-bold'>{project.name}</h1>
                                 {/* links */}
                                 <div className='flex gap-5'>
@@ -53,6 +53,7 @@ export default function Projects() {
 
                             </div>
 
+                            <div className='w-full h-[1px] md:hidden bg-slate-500 opacity-45'></div>
                         </div>
                     </div>
                 })

@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Education() {
     return (
-        <div className='w-full flex flex-col gap-2'>
+        <div className='w-full flex text-justify flex-col gap-2'>
             <h1 className='text-4xl font-bold text-violet-500 mb-3 md:text-start text-center'>Education</h1>
             {/* Education */}
             {/* Education Container B.tech */}
-            <div className='relative flex gap-8'>
+            <div className='relative flex md:px-0 px-3 gap-8'>
                 {/* Line */}
-                <div className='h-full border-l-2 border-slate-500'></div>
+                <div className='h-full border-l-2 md:block hidden border-slate-500'></div>
 
                 {/* Education Details */}
                 <div className='text-slate-400 flex items-center gap-4'>
@@ -22,9 +22,9 @@ export default function Education() {
                 </div>
             </div>
             {/* Education Container Intermediate */}
-            <div className='relative flex gap-8 mt-8'>
+            <div className='relative flex md:px-0 px-3 gap-8 mt-8'>
                 {/* Line */}
-                <div className='h-full border-l-2 border-slate-500'></div>
+                <div className='h-full border-l-2 md:block hidden border-slate-500'></div>
 
                 {/* Education Details */}
                 <div className='text-slate-400 flex items-center gap-4'>

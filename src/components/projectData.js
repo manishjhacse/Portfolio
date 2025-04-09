@@ -1,5 +1,22 @@
 const projectData = [
   {
+    id: 6,
+    name: "Campus Connect (College Social & Collaboration Platform)",
+    poster:
+      "https://res.cloudinary.com/dfrcswf0n/image/upload/v1730803846/Screenshot_2024-11-05_162028_cw8xlo.png",
+    points: [
+      `Led the development of a student-centric platform integrating social networking, collaborative learning, 
+      and essential campus utilities, enhancing communication and engagement for 500+ registered users.`,
+      `Created a real-time collaborative space with a whiteboard and live code editor, helping students study and 
+      code together easily. `,
+      `Built a Roommate Finder & Marketplace, allowing students to find compatible roommates and exchange 
+      items, making campus life more convenient.`,
+    ],
+    technologies: ["ReactJs", "ExpressJS", "NodeJS", "TailwindCSS", "MongoDB","Socket.io"],
+    github: "https://campusconnect-bpmce.vercel.app/home",
+    live: "https://campusconnect-bpmce.vercel.app/home",
+  },
+  {
     id: 1,
     name: "OJAS’X (Event Management Platform for College)",
     poster:

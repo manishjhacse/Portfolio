@@ -7,7 +7,7 @@ export default function Details() {
     const [showConnect, setShowConnect] = useState(false)
     return (
         <div className='md:w-[30%] md:h-screen pt-14'>
-            {showConnect && <Connect setShowConnect={setShowConnect} />}
+            <Connect showConnect={showConnect} setShowConnect={setShowConnect} />
             <div className='flex flex-col md:items-start items-center gap-y-3'>
                 {/* profile Image */}
                 <img className=' rounded-full h-48 w-48' src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730778977/WhatsApp_Image_2024-09-14_at_22.02.06_480fc9df_huhrur.jpg" alt="Manish Image" />
