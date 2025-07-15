@@ -4,33 +4,33 @@ import './GreetingAnimation.css';
 const GreetingAnimation = () => {
     const greetings = [
         'Hello',
-        'Namaste',
-        'Hola',
-        // 'Bonjour',
-        // 'Hallo',
-        // 'Ciao',
+        'नमस्ते',
+        'வணக்கம்',
+        'ಹೆಲೋ'
     ];
+
+    const totalDuration = 1000; // 1 second
+    const perGreetingDelay = totalDuration / greetings.length; // 250ms for 4 greetings
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isCompleted, setIsCompleted] = useState(false);
 
     useEffect(() => {
-        if (isCompleted) return; // Stop the animation if completed
+        if (isCompleted) return;
 
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => {
                 if (prevIndex + 1 === greetings.length) {
-                    // If last greeting is reached, mark as complete and clear interval
                     setIsCompleted(true);
                     clearInterval(interval);
-                    return prevIndex; // Return the current index to stop updating
+                    return prevIndex;
                 }
                 return prevIndex + 1;
             });
-        }, 500);
+        }, 350);
 
         return () => clearInterval(interval);
-    }, [isCompleted, greetings.length]);
+    }, [isCompleted, greetings.length, perGreetingDelay]);
 
     return (
         !isCompleted && (
@@ -40,5 +40,7 @@ const GreetingAnimation = () => {
         )
     );
 };
+
+
 
 export default GreetingAnimation;
