@@ -2,10 +2,15 @@ import React from 'react'
 
 export default function Skills() {
     const languages = ["JavaScript", "TypeScript", "Java", "C++", "C"]
-    const frameworks = ["ReactJs", "NextJs", "ExpressJs", "TailwindCSS", "Bootstrap"]
-    const backend = ["NodeJs", "REST APIs", "CRUD operations", "Socket.IO"]
+
+    const frameworks = ["React.js", "Next.js", "Express.js", "Tailwind CSS", "Bootstrap"]
+
+    const backend = ["Node.js", "REST APIs", "Socket.IO"]
+
     const database = ["MongoDB", "SQL"]
-    const tools = ["Git", "GitHub", "Visual Studio Code", "Postman"]
+
+    const tools = ["Git", "GitHub", "VS Code", "Postman"]
+
 
     return (
         <div className='w-full text-center md:text-start flex flex-col gap-2'>

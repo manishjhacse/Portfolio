@@ -13,9 +13,12 @@ export default function Details() {
                 <img className=' rounded-full h-48 w-48' src="https://res.cloudinary.com/dfrcswf0n/image/upload/v1730778977/WhatsApp_Image_2024-09-14_at_22.02.06_480fc9df_huhrur.jpg" alt="Manish Image" />
                 {/* Brief Intro */}
                 <h1 className='text-4xl font-bold'>Manish Kumar Jha</h1>
-                <div className='text-slate-400'>Full Stack Web Developer</div>
+                <div className='text-slate-400'>Full Stack MERN Developer</div>
                 <div className='text-slate-400 flex items-center gap-2'><IoLocationSharp className='text-red-500' /> <span>New Delhi, India</span></div>
-                <div className='md:w-[68%] md:text-start text-center px-6 md:px-0 text-slate-400'>Passionate MERN Stack Developer creating seamless, user-focused web applications that blend innovation and functionality.</div>
+                <p className='text-slate-400'>
+                    Full Stack MERN Developer with real-world experience and a passion for building powerful, user-first web applications that solve meaningful problems through technology.
+                </p>
+
                 {/* Resume and Links */}
                 <div className='flex w-fit py-1 gap-6 items-center'>
                     <a className='flex items-center px-2 py-1 rounded-md gap-2 border-white border w-fit hover:bg-white hover:text-black transition-all duration-200' href="https://drive.google.com/drive/u/0/folders/1T6GMJ1EELFSf7HxGs-DtxHo-6fWA3V2a" target='_blank'><FaFileDownload /><span>Resume</span></a>

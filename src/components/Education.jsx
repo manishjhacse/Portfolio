@@ -16,8 +16,8 @@ export default function Education() {
                     <div className='flex flex-col'>
                         <h1 className='text-2xl text-white font-bold'>B.Tech (CSE)</h1>
                         <h3 className='text-[18px]'>B. P. Mandal college of engineering</h3>
-                        <h4 className='text-sm'>December 2021 - Present</h4>
-                        <h4 className='text-sm'>7.95 CGPA</h4>
+                        <h4 className='text-sm'>December 2021 - May 2025</h4>
+                        <h4 className='text-sm'>8.05 CGPA</h4>
                     </div>
                 </div>
             </div>
